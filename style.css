@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.bold{
+    font-weight: 600;
+}
+:root{
+    --white:#fff;
+    --black:#000;
+    --p-color:#666666;
+    --primary-color:var(--black);
+}
+.icon{
+    width: 60px;
+    height: 60px;
+}
+body{
+    font-family: "Lato", sans-serif !important;
+    margin: 0;
+    padding: 0;
+}
+.ml-auto{
+    margin-left: auto;
+}
+
+ .navbar-nav .nav-link{
+    font-size: 1rem;
+    color: var(--black);
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+    animation: navani 1.3s ease forwards;
+}
+.nav-link:hover{
+    color: white!important;
+    background-color: black !important;
+}
+.p-color{
+    color: var(--p-color);
+}
+.navbar-brand {
+    font-weight: 600;
+    animation: leftSideAni 1.5s ease forwards ;
+}
+.btn1{
+    padding: 8px 15px;
+    color: black;
+    background: white;
+    border: 0;
+    margin-bottom: 15px;
+}
+.Ani-1s h1,h3, .p-color{
+    animation: leftSideAni 1.5s ease forwards;
+}
+.btn2{
+    padding: 12px 31px;
+    color: #fff;
+    background: #000;
+    border: 0;
+    margin-top: 20px;
+}
+
+.btn1:hover{
+    background-color: var(--black);
+    color: var(--white);
+
+}
+.btn2:hover{
+    background-color: var(--black);
+    color: var(--white);
+
+}
+.pt-50{
+    padding-top: 50px;
+}
+.mt-100{
+    margin-top: 100px;
+}
+.primary-text{
+    color: var(--black);
+    line-height: 40px;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.bg-beige{
+    background-color: beige !important;
+}
+.b-0{
+    border: 0 !important;
+}
+.ml-65{
+    margin-left: 65px;
+}
+.fs-40{
+    font-size: 40px;
+}
+/* .card:hover{
+    padding: 10px;
+    transition: 0.5s;
+} */
+.hov-card:hover{
+    padding: 10px;
+    transition: 0.45s;
+}
+.center-vertical {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.sign-img{
+    width: 30%;
+}
+.primary-color{
+    color: var(--black);
+}
+.social-cons{
+    width: 50%;
+    display: block;
+}
+.img-w55{
+    max-width: 52%!important;
+}
+footer{
+	background: black !important;
+}
+/* Animation */
+@keyframes leftSideAni {
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes navani {
+    0% {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes rightSideAni {
+    0% {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes topSideAni {
+    0% {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes SocialAni {
+    0% {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+/* .social a {
+    display: grid;
+    place-items: center;
+    text-decoration: none;
+    color: var(--primary-color);
+    border: 1.6px solid var(--primary-color);
+    font-size: 1.5rem;
+    border-radius: 50%;
+    padding: 0.39rem;
+    text-align: center;
+    opacity: 0;
+    animation: SocialAni 1s ease forwards;
+    animation-delay: calc(.4s * var(--socialAni));
+}
+
+.social a:hover {
+    color: var(--primary-dark);
+    background-color: var(--primary-color);
+    box-shadow: 0 0 20px var(--primary-color);
+    transition: all .5s ease-in-out;
+}
+.social {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.4rem;
+    margin-top: 1.4rem;
+} */
+.max-width{
+    max-width: 100%;
+}
+.gallery-html{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: black;
+    border: 2px solid black;
+    font-weight: 500;
+    font-weight: 500;
+    font-size: 20px;
+    background-color: white;
+}
+.gallery-html:hover{
+    background-color: white !important;
+    color: black !important;
+}
+.w100{
+    width: 100%;
+}
+.margin-bottom-10px{
+    margin-bottom: 10px;
+}
+
